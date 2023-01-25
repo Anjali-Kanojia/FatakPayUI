@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: widthScale(10),  
     height:heightScale(168) ,
     width:widthScale(335),
-   
   },
   text: {
     fontSize: fontScale(16),
