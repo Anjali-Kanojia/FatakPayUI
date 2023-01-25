@@ -126,7 +126,11 @@ const styles = StyleSheet.create({
     left:widthScale(23),
     elevation: 7,
     shadowColor: '#000',
-    backgroundColor:'white'
+    backgroundColor:'white',
+    // shadow color for ios
+    shadowOffset: {width: 2, height: 4},
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
     },
     emiText:{
         fontWeight:'700',
